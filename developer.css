@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo h2 a{
+    font-style: italic;
+    color: #090a0d;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 80px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    background: rgb(201, 176, 32);
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+ ul{
+    display: inline-block;
+    list-style: none;
+    background: rgb(201, 176, 32);;
+}
+ ul li{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+ ul li a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    transition: .3s all ease-in-out;
+}
+nav ul li a:hover{
+    color:aqua
+}
+ul li ul.dropdown li{
+    display: block;
+    text-align: center;
+}
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    color: #112c66;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+.aboutSection{
+    padding: 60px 0px;
+}
+.aboutTitleAndDescription h3{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+.aboutTitleAndDescription p{
+    font-size: 23px;
+}
+.storeImage img{
+    width: 70%;
+    height: 20%;
+    border-radius: 20px 143px 20px 160px;
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background :url('images/back.webp')no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(239, 225, 225, 0.5);
+    display: inline-block;
+    border: 1px solid rgb(196, 190, 190);
+    border-radius:8px;
+    width: 360px;
+    text-align: left;
+    padding: 12px;
+}
+input{
+    width: 290px;
+    height: 30px;
+    border: 1px solid rgb(0, 255, 213);
+    border-radius: 4px;
+}
+.btn {
+    text-align: center;
+}
+.btn input{
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 33px;
+    color: rgb(13, 2, 2);
+    background-color: rgb(215, 20, 118);
+    margin-top: 16px;
+    transition: all .5s ease-in-out;
+}
+.btn input:hover{
+    background-color:salmon;
+    color: bisque;
+}
+p{
+    text-align: center;
+    margin-top: 30px;
+}

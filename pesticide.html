@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesticide</title>
+    <link rel="shortcut icon" href="main logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="pesticide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <h2><a href="index.html">Majumder</a></h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li><a href="#">Products &#8595;</a>
+                    <ul class="dropdown">
+                        <li><a href="fertilizer.html">Fertilizer</a></li>
+                        <li><a href="pesticide.html">Pesticide</a></li>
+                        <li><a href="seeds.html">Seeds</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="./about.html">About&Contact</a></li>
+                    <li><a href="./developer.html">Developer</a></li>
+                    <li><a href="register.php">Account</a></li>
+                </ul>
+            </nav>
+        </div>
+    <div class="container">
+        <div class="logo">
+            <img src="images/pesticide in bd5.webp"  width="100%" height="500px">
+        </div>
+    </div>
+    </div>
+    <div class="small-container">
+        <h2 class="title">Pesticide Products</h2>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="images/pestiside1.jpg">
+            <div class="card-content">
+                <h3>Ripcord 10 EC - 100 ml</h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                
+                <p>৳150.00</p>
+                <a href="#" class="btn">Read Now &#8594;</a>
+                <a href="register.php" class="btn1">Buy Now &#8594;</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/pestiside naitro.jpg" width="20px">
+            <div class="card-content">
+                <h3>Nitro – 100 ml – Cypermethrin – Auto Crop Care Ltd</h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                
+                <p>৳ 162.00</p>
+                <a href="#" class="btn">Read Now &#8594;</a>
+                <a href="register.php" class="btn1">Buy Now &#8594;</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/pestiside chlorocel.jpg">
+            <div class="card-content">
+                <h3>Chlorocel 48 EC </h3>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>৳120.00</p>
+                <a href="#" class="btn">Read Now &#8594;</a>
+
+                <button class="buy-now-btn" onclick="openPaymentModal()">Buy Now →</button>
+
+<div id="paymentModal" class="modal">
+  <div class="modal-content">
+    <h3>Select Payment Method</h3>
+    <hr>
+    <div class="payment-options">
+      <a href="https://your-bkash-link.com" class="pay-btn bkash">Pay with bKash</a>
+      <a href="https://your-nagad-link.com" class="pay-btn nagad">Pay with Nagad</a>
+    </div>
+    <button class="close-btn" onclick="closePaymentModal()">Cancel</button>
+  </div>
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>&#8594;</span>
+        </div>
+    </div> 
+    
+    <script>
+         function openPaymentModal() {
+  document.getElementById("paymentModal").style.display = "block";
+}
+
+function closePaymentModal() {
+  document.getElementById("paymentModal").style.display = "none";
+}
+
+//Close if user clicks outside the box
+window.onclick = function(event) {
+  let modal = document.getElementById("paymentModal");
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+    </script>
+        
+    </body>
+</html>
